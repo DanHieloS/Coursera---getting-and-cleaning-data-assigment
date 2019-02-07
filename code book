@@ -20,7 +20,7 @@ There are 5 steps to accomplish to develop the exercise
 ** Read column names
 ** Put in a vector the measurements
 ** Make a concrete subset
-* UNaming properly every one of the activities in the data set
+* Naming properly every one of the activities in the data set
 * Label the data set with descriptive variable names
 * Creating anoter tidy data set with the average of each variable for each activity and each subject
 ** Making second tidy data set
