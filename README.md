@@ -46,16 +46,16 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 ## 3 About the Scrip
 There are 5 steps to accomplish to develop the exercise
-* create one data set by merging all others. It requires:
-** Read all the tables
-** Asign names to the columns
-** Merge everything in one data set.
-* Extract the measurements required (Mean and Standard deviation)
-** Read column names
-** Put in a vector the measurements
-** Make a concrete subset
-* Naming properly every one of the activities in the data set
-* Label the data set with descriptive variable names
-* Creating anoter tidy data set with the average of each variable for each activity and each subject
-** Making second tidy data set
-** Writing second tidy data set in txt file
+### create one data set by merging all others. It requires:
+* Read all the tables
+* Asign names to the columns
+* Merge everything in one data set.
+### Extract the measurements required (Mean and Standard deviation)
+* Read column names
+* Put in a vector the measurements
+* Make a concrete subset
+### Naming properly every one of the activities in the data set
+### Label the data set with descriptive variable names
+### Creating anoter tidy data set with the average of each variable for each activity and each subject
+* Making second tidy data set
+* Writing second tidy data set in txt file
