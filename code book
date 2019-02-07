@@ -27,6 +27,6 @@ There are 5 steps to accomplish to develop the exercise
 ** Writing second tidy data set in txt file
 
 ## 4 Variables
-a_train, b_train, a_test, b_test, subjecttrain and subjecttest contain the data from the downloaded files.
-data1, data2 and subjectdata merge the previous datasets to further analysis.
+a_train, b_train, a_test, b_test, subject_train and subject_test contain the data from the downloaded files.
+alltrain, alltest and allinone merge the previous datasets to further analysis.
 features contains the correct names for the data1 dataset, which are applied to the column names stored in
