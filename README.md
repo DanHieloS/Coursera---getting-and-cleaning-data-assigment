@@ -31,3 +31,5 @@ There are 5 steps to accomplish to develop the exercise
 ### Creating anoter tidy data set with the average of each variable for each activity and each subject
 * Making second tidy data set
 * Writing second tidy data set in txt file
+
+## thanks to my peers review I introduced several changes. I hope it works now.
