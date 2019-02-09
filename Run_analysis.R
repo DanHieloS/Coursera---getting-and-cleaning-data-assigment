@@ -66,7 +66,17 @@ setWithActivityNames <- merge(setForMeanAndStd, activityLabels,
                               by='activityId',
                               all.x=TRUE)
 # 4. Label the data set with descriptive variable names.
-# Made in steps 1.3, 2.2, 2.3.
+names(setWithActivityNames) <- make.names(names(setWithActivityNames))
+names(setWithActivityNames) <- gsub('Acc',"Acceleration",names(setWithActivityNames))
+names(setWithActivityNames) <- gsub('GyroJerk',"AngularAcceleration",names(setWithActivityNames))
+names(setWithActivityNames) <- gsub('Gyro',"AngularSpeed",names(setWithActivityNames))
+names(setWithActivityNames) <- gsub('Mag',"Magnitude",names(setWithActivityNames))
+names(setWithActivityNames) <- gsub('^t',"TimeDomain.",names(setWithActivityNames))
+names(setWithActivityNames) <- gsub('^f',"FrequencyDomain.",names(setWithActivityNames))
+names(setWithActivityNames) <- gsub('\\.mean',".Mean",names(setWithActivityNames))
+names(setWithActivityNames) <- gsub('\\.std',".StandardDeviation",names(setWithActivityNames))
+names(setWithActivityNames) <- gsub('Freq\\.',"Frequency.",names(setWithActivityNames))
+names(setWithActivityNames) <- gsub('Freq$',"Frequency",names(setWithActivityNames))
 
 # 5. Creating anoter tidy data set with the average of each variable for each activity and each subject
 
